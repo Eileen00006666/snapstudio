@@ -1,10 +1,10 @@
-# SnapStudio 📸
+# SnapStudio
 
 **A customizable, browser-based photobooth for personal moments and events.**
 
 SnapStudio lets you design a photo strip, take pictures with your device's camera, edit individual shots, and download the finished result—all in your browser. The interface is available in **English and Chinese (中文)**.
 
-## ✨ Features
+## Features
 
 ### Photobooth experience
 - **Personal & Event modes** for everyday memories, parties, and gatherings.
@@ -22,7 +22,7 @@ SnapStudio lets you design a photo strip, take pictures with your device's camer
 - **Add draggable text and decorative stickers** to the photo strip.
 - **Export as PNG** in standard or high-resolution (3×) quality.
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **React 18** — user interface
 - **Vite 6** — development server and production build
@@ -32,7 +32,7 @@ SnapStudio lets you design a photo strip, take pictures with your device's camer
 - **MediaDevices API** — camera access
 - **localStorage** — saved design templates
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Requirements
 
@@ -74,7 +74,7 @@ npm run preview
 
 The production-ready files are generated in the `dist/` directory.
 
-## 📖 How to Use
+## How to Use
 
 1. **Choose a mode:** Personal Studio or Event Studio.
 2. **Design your frame:** Pick a photo count and theme; customize the title, date, and optional logo. You can save the design as a template.
@@ -82,7 +82,7 @@ The production-ready files are generated in the `dist/` directory.
 4. **Edit:** Adjust the layout and individual photos; add text or stickers and drag them into place.
 5. **Download:** Save your photo strip as a standard or HD PNG.
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 SnapStudio/
@@ -103,13 +103,13 @@ SnapStudio/
 
 > `node_modules/` and `dist/` are generated locally and should not be committed to GitHub.
 
-## 🔒 Privacy & Browser Notes
+## Privacy & Browser Notes
 
 - SnapStudio runs **client-side**: this project does not include a server, account system, or cloud photo storage.
 - Photos are processed in the browser; this application does not send captured images to a backend.
 - Saved design templates are stored in your browser's **localStorage** (up to 20 templates), so they do not automatically sync across devices or browsers.
 - **Camera access requires permission** and normally works only on **HTTPS** websites or **localhost**. Camera switching depends on device support.
 
-## 📌 Project Status
+## Project Status
 
 **Functional prototype.** Core photobooth, customization, capture, editing, template saving, and PNG export features are implemented. Further improvements and testing may be added over time.
